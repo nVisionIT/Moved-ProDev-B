@@ -1,0 +1,14 @@
+neg tests:
+if email without 'to' email address then break
+if email with invalid 'to' email address then break
+if email with invalid 'from' email address then break
+if email with no subject then break
+if type equals 'Email' and code returns 501
+if from equals empty then break
+
+positive tests:
+if 'to' address is valid
+if delivery type is 'Email' and returns 200
+if 'from' address is valid
+
+the simplest test:
